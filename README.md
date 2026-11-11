@@ -19,19 +19,49 @@ D to D Studio ("Design to Digital") is a design and digital-marketing agency: lo
 - Fully responsive, from mobile to wide desktop
 
 ### 2. The custom admin panel
-A dashboard of its own on top of WordPress, so the agency team does not have to use the default wp-admin screens.
+A dashboard of its own on top of WordPress, so the agency team can run the whole site without touching the default wp-admin screens. Every part of the website is edited from this panel.
 
 | Area | What it does |
 |---|---|
-| **Roles & permissions** | Creator, Main Super Administrator, Super Administrator, Administrator and Editor, plus custom roles with line-by-line permissions. Sections can be locked per role. |
-| **Team management** | Add, edit, block and delete users, per-user login limits, and a safe "open account" switch for support |
-| **Secure login** | Own login page instead of wp-login, option to hide wp-admin, limited login attempts with a temporary IP lock, and an extra access check for sensitive areas |
-| **Leads & forms** | Edit the fields of the quote form and see every lead that comes in |
-| **Management history** | Audit log of admin actions (who changed what, and when) |
-| **Site settings** | Contact details, office locations, theme options and site-wide and per-user time zones |
-| **Hosting card** | Shows the hosting plan and storage information through the Hostinger API |
+| **Dashboard** | Greeting, quick actions and live counts: enquiries this month (with change vs last month), unread enquiries, services, reviews and portfolio projects, plus the latest enquiries |
+| **Website editors** | Separate editors for the header (logo, menu with drag-to-reorder and category dropdowns, right-side button), footer, every home page section and brand colours |
+| **Content** | Services with categories, client reviews for the slider, portfolio projects with categories, office locations and contact details |
+| **Enquiries & forms** | Every quote request in one list (All / Mine / Private), a form builder for the quote form (field type, options, placeholder, width, required) and export to Google Sheets |
+| **SEO & Google** | SEO score with a 13-point checklist, automatic titles, descriptions, sitemap and structured data, plus Google Search Console, Analytics and Business Profile settings |
+| **Roles & permissions** | Creator, Main Super Administrator, Super Administrator, Administrator and Editor, plus custom roles built from 61 individual permissions. Sections can be locked so only a Main Super Administrator can open them |
+| **Team** | Add, edit, block and delete users, per-user login limits and a safe "open account" switch for support |
+| **Secure login** | Its own login page, option to hide wp-admin, limited login attempts with a temporary lock, and an extra access check before the most sensitive areas |
+| **Management history** | Audit log of support sessions and user changes: who did it, on which account, why, when and for how long, with filters and CSV export |
+| **Site settings** | Site-wide and per-user time zones, help guides for every role, and a hosting card that shows the plan and storage through the Hostinger API |
 
-## Screenshots
+#### Admin panel screenshots
+Customer details, user names, emails and log entries are blurred. Security settings are not shown.
+
+**Dashboard**
+
+![Admin dashboard](docs/admin/admin-dashboard.png)
+
+| Header editor | Home page editor |
+|---|---|
+| ![Header editor](docs/admin/admin-header-editor.png) | ![Home page editor](docs/admin/admin-home-editor.png) |
+
+| Services | Enquiries (blurred) |
+|---|---|
+| ![Services list](docs/admin/admin-services.png) | ![Enquiries list](docs/admin/admin-enquiries.png) |
+
+| Quote form builder | SEO & Google |
+|---|---|
+| ![Form fields](docs/admin/admin-form-fields.png) | ![SEO checklist](docs/admin/admin-seo.png) |
+
+| Access control & locked sections | Management history (blurred) |
+|---|---|
+| ![Access control](docs/admin/admin-access-control.png) | ![Management history](docs/admin/admin-history.png) |
+
+**Roles & permissions**
+
+![Roles and permissions](docs/admin/admin-roles.png)
+
+## Website screenshots
 
 | Desktop | Mobile |
 |---|---|
